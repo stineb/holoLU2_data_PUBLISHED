@@ -20,14 +20,12 @@ add_alpha <- function( col, alpha ){
 off            <- 24.654
 off_lpx        <- 285.1803
 
-  ##--------------------------------
-  ## FIRST PLOT: PEAT NCB
-  ##--------------------------------
-  ## HOLOCENE
-  ##--------------------------------
     print("plotting ... ")
+    ##--------------------------------
+    ## Annual eat C balance
+    ##--------------------------------
     xlim <- c(-10000,2000)
-    plot( range(peat_yml_lhnfix$year), range(peat_yml_lhnfix$mean), type="n", ylab=expression( "annual peat C balance (PgC" ~ yr^{-1} ~ ")" ), xlab="", xlim=xlim )
+    plot( range(peat_yml_lhnfix$year), range(peat_yml_lhnfix$mean), type="n", ylab=expression( "annual peat C balance (PgC" ~ yr^{-1} ~ ")" ), xlab="", xlim=xlim, ylim=c(-0.01,0.12) )
     
     ## add +/- 1-sigma range to plot
     lines( peat_yml_lhnfix$year, (peat_yml_lhnfix$mean - peat_yml_lhnfix$sd) )
@@ -43,9 +41,7 @@ off_lpx        <- 285.1803
     lines( peat_lpx$year, peat_lpx$nep, lwd=2, col="dodgerblue2" )
 
     ##--------------------------------
-    ## THIRD PLOT: CUMULATIVE CHANGES
-    ##--------------------------------
-    ## HOLOCENE
+    ## Cumulative eat C balance
     ##--------------------------------
       par(las=1, xaxs="i")
       ylim <- c(0,650)
@@ -75,8 +71,6 @@ off_lpx        <- 285.1803
         expression(paste("peat, LPX (",Delta ,"C"[peat],")"))
         ), lty=1, lwd=2, col=c("dodgerblue4","dodgerblue2"), bty="n" )
 
-    ##--------------------------------
-    ## FIFTH PLOT: REMAINDER AND ELUC
     ##--------------------------------
     ## HOLOCENE
     ##--------------------------------
