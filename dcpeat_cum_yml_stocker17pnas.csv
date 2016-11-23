@@ -18,7 +18,9 @@
 ## 
 ## Citation: Stocker et al.: Holocene peatland and ice core data constraints on 
 ## the timing and magnitude of CO2 emissions from past land use, PNAS, 2017
-## 
+##
+## This data is made available under the GNU General Public License v3.0
+##
 ## Columns description:
 ## 1.  age          year before present (1950 CE)
 ## 2.  year         year CE
