@@ -1,6 +1,6 @@
 # Data from Stocker et al. (2017) PNAS
 
-This repository contains all time series data for the peatland carbon balance and land use change emissions as published in Stocker et al., 2017.
+This dataset contains all time series data for the peatland carbon balance and land use change emissions as published in Stocker et al., 2017. Provided are CSV files for global time series covering the Holocene (last 11,000 yr) until 1950 CE.
 Available files:
 - `dcpeat_lpx_stocker17pnas.csv` : Global total peatland annual net ecosystem productivity and carbon storage in peatland soils, simulated by LPX-Bern (using DYPTOP module for dynamically simulating peatland distribution and C, as described in Stocker et al., 2014, GMD)
 - `dcpeat_yml_stocker17pnas.csv` : Global total peatland net carbon balance, derived from 64 dated peat cores, termed 'YML' in Stocker et al., 2017. Includes summary statistics from 1000 individual Monte Carlo reconstructions.
