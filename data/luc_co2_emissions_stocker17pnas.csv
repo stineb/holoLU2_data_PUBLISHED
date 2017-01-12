@@ -26,7 +26,8 @@
 ## 10. hyde31u_cum  cumulative LUC emissions following scenario HYDE 3.1 upper, (PgC)    
 ## 11. hyde32u_cum  cumulative LUC emissions following scenario HYDE 3.2 upper, (PgC)
 ## 12. kk10_cum     cumulative LUC emissions following scenario HYDE KK 10, (PgC)
-## 13. kk10d_cum    cumulative LUC emissions following scenario HYDE KK 10D, (PgC)   
+## 13. kk10d_cum    cumulative LUC emissions following scenario HYDE KK 10D, (PgC) 
+##  
 ## ----------------------------------------------------------------------------------
 "year","hyde31","hyde32","hyde31u","hyde32u","kk10","kk10d","hyde31_cum","hyde32_cum","hyde31u_cum","hyde32u_cum","kk10_cum","kk10d_cum"
 -10000,0,0,0,0,0,0,0,0,0,0,0,0

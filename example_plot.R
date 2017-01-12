@@ -6,7 +6,7 @@ rm( list=ls() )
 peat_yml_lhnfix     <- read.csv( file="data/dcpeat_yml_stocker17pnas.csv", skip=30 )
 peat_yml_lhnfix_cum <- read.csv( file="data/dcpeat_cum_yml_stocker17pnas.csv", skip=33 )
 peat_lpx            <- read.csv( file="data/dcpeat_lpx_stocker17pnas.csv", skip=26 )
-fluc                <- read.csv( file="data/luc_co2_emissions_stocker17pnas.csv", skip=30 )
+fluc                <- read.csv( file="data/luc_co2_emissions_stocker17pnas.csv", skip=31 )
 
 add_alpha <- function( col, alpha ){
   ## add alpha to color given as a name
@@ -16,7 +16,7 @@ add_alpha <- function( col, alpha ){
   return( col )
 }
 
-## vertical offsets correspond to peat C at 11 ka BP in original data
+## vertical offsets correspond to total peat C storage at 11 ka BP in original data (showing only difference rel. to 11 ka BP in Fig. 1)
 off            <- 24.654
 off_lpx        <- 285.1803
 
