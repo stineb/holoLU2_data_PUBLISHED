@@ -8,6 +8,8 @@ Available files:
 - `luc_co2_emissions_stocker17pnas.csv` : Annual and cumulative CO2 emissions from land use change following different scenarios (HYDE 3.1, HYDE 3.2, KK10 and KK10D)
 - `example_plot.R` : Reads the provided data files and creates figures like Fig. 1 and S8 in Stocker et al., 2017.
 
+Uncertainty estimates are available for the peatland carbon balance (YML dataset) and is assessed by a set of 1000 Monte Carlo simulations that account for uncertainty in peat core measurements and uncertainty in parameters used to derive the global peatland carbon balance for multiple core measurements.
+
 Please cite Stocker et al. (2017) when using this data.
 
 Citation: 
