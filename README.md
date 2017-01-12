@@ -13,7 +13,7 @@ Uncertainty estimates are available for the peatland carbon balance (YML dataset
 Please cite Stocker et al. (2017) when using this data.
 
 Citation: 
-Stocker, B., Yu, Z., Massa, C., Joos, F.: Holocene peatland and ice core data constraints on the timing and magnitude of CO2 emissions from past land use, PNAS, 2017 
+Stocker, B.D., Yu, Z., Massa, C., Joos, F.: Holocene peatland and ice core data constraints on the timing and magnitude of CO2 emissions from past land use, PNAS, 2017 
 
 b. stocker, jan 2017
 contact: beni.stocker@env.ethz.ch
