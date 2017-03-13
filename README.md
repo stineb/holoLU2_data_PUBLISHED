@@ -11,7 +11,7 @@ http://dx.doi.org/10.3334/ORNLDAAC/1382
 
 and
 
-[Climate and Environmental Physics, Uni. Bern](http://www.climate.unibe.ch/research/publications/datasets/index_eng.html.)
+[Climate and Environmental Physics, Uni. Bern](http://www.climate.unibe.ch/research/publications/datasets/index_eng.html)
 
 ## Available files
 
